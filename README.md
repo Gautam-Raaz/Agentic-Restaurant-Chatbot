@@ -102,7 +102,7 @@ Agent: *"Done! 📅 Table for 4 reserved at 8:00 PM."*
 ---
 
 ## 📜 License  
-MIT License © 2025 [Your Name]  
+MIT License © 2025 Gautam Raj
 
 ---
 
