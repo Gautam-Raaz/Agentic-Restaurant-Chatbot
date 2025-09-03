@@ -23,14 +23,11 @@ This is a demo project designed to highlight **LLM orchestration + agent tooling
 ```
 lib/
 ├── main.dart           # App entry point
-├── agents/
-│   ├── menu_tool.dart
-│   ├── order_tool.dart
-│   ├── reservation_tool.dart
-│   └── orchestrator.dart
-└── ui/
-    ├── chat_screen.dart
-    └── message_bubble.dart
+└──tools/
+   ├── menu_tool.dart
+   ├── order_tool.dart
+   └── reservation_tool.dart
+
 ```
 
 - `agents/` → Tool definitions + agent setup  
@@ -93,7 +90,7 @@ Agent: *"Done! 📅 Table for 4 reserved at 8:00 PM."*
 
 ---
 
-## 📌 Roadmap  
+## 📌 Roadmap(Future Plans)
 - [ ] Add payment flow simulation  
 - [ ] Add Firestore persistence for orders  
 - [ ] Multi-agent collaboration (e.g., PaymentAgent, FeedbackAgent)  
